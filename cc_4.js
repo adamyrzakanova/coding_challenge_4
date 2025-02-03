@@ -110,3 +110,10 @@ console.log(`Discounted price: $${applyDiscount(100, 0.2)}`);
 
 // log using template literal
 console.log(`Discounted price: $${applyDiscount(100, 0.2)}`);
+
+// Task 10
+// Declare an arrow function calculatePoints that takes a purchase amount and returns points. 1 point for every $10 spent.
+let calculatePoints = purchaseAmount => purchaseAmount / 10;
+
+// log results using template literal
+console.log(`Points: ${calculatePoints(100)}`);
