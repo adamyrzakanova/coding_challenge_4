@@ -74,3 +74,15 @@ for (let product of products) {
 
 // log each product name usign template literal
 console.log(`Products: ${products}`);
+
+// Task 7   
+// Declare an array orders
+let orders = [ 101, 102, 103 ];
+
+// Use forEach to log each order ID to the console using template literal
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`);
+});
+
+// log each order ID    
+console.log(`Orders: ${orders}`);
