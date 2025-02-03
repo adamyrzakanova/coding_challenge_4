@@ -22,3 +22,15 @@ for (let i = 0; i < sales.length; i++) {
 
 // Log total sales
 console.log(`Total sales: $${forloopTotal}`);
+
+// Task 3   
+// Declare a variable stock with a initial value of 10
+let stock = 10;
+
+// Use while loop to decrease stock until 0
+while (stock > 0) {
+    stock--;
+}
+
+// Log final stock
+console.log(`Final stock: ${stock}`);
