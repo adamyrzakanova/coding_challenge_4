@@ -34,3 +34,15 @@ while (stock > 0) {
 
 // Log final stock
 console.log(`Final stock: ${stock}`);
+
+// Task 4
+// Declare variable responses initial value of 0
+let responses = 0;
+
+// Use a do...while loop to collect responses, simulating user input with responses++ until it reaches 3.
+do {
+    responses++;
+} while (responses < 3);
+
+// Log total responses
+console.log(`Total responses: ${responses}`);
