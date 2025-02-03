@@ -46,3 +46,20 @@ do {
 
 // Log total responses
 console.log(`Total responses: ${responses}`);
+
+// Task 5
+// Declare employee object 
+let employee = {
+    name: "Alice",
+    position: "manager",
+    salary: 75000,
+};
+
+// Use for...in loop to iterate over object properties
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}
+
+// log employee object
+console.log(employee);
+
