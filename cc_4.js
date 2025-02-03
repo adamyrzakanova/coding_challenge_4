@@ -98,3 +98,15 @@ console.log(`Tax: $${calculateTax(100, 0.1)}`);
 
 // log using template literal
 console.log(`Tax: $${calculateTax(100, 0.1)}`);
+
+// Task 9   
+// Declare a function expression applyDiscount that takes a price and discount percentage.
+let applyDiscount = function(price, discount) {
+    return price - price * discount;
+};
+
+// Return the discounted price.
+console.log(`Discounted price: $${applyDiscount(100, 0.2)}`);
+
+// log using template literal
+console.log(`Discounted price: $${applyDiscount(100, 0.2)}`);
