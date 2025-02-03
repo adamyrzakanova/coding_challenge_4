@@ -63,3 +63,14 @@ for (let key in employee) {
 // log employee object
 console.log(employee);
 
+// Task 6
+// Declare array of products
+let products = [ "Laptop", "Mouse", "Keyboard" ];
+
+// Use for...of loop to display each product
+for (let product of products) {
+    console.log(product);
+}
+
+// log each product name usign template literal
+console.log(`Products: ${products}`);
